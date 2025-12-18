@@ -1,6 +1,11 @@
 ## Instruções para Prompts Reutilizáveis
 
-Este arquivo contém exemplos que você pode utilizar durante a hora do hands on. Explore as opções e utilize a que preferir (uma, ou todas ^^). Você também pode criar seu proprio prompt reutilizavel se tiver tempo e uma ideia boa. Segue aqui o Awesome Copilot, um repositório cheio de exemplos que você pode utilizar de prompts reutilzaveis. [Awesome Copilot] (https://github.com/github/awesome-copilot)
+Este arquivo contém exemplos que podem ser utilizados durante a sessão de hands-on. Fique à vontade para explorar as opções e usar a(s) que preferir — uma, várias ou todas 😊.
+
+Caso tenha tempo e uma boa ideia, você também pode criar seu próprio prompt reutilizável.
+
+Como referência adicional, recomendamos o Awesome Copilot, um repositório com diversos exemplos de prompts reutilizáveis que podem servir de inspiração:
+👉 [Awesome Copilot] (https://github.com/github/awesome-copilot)
 
 ## 1. Adicionar nova funcionalidade: alterar a cor do texto através de um botão
 
