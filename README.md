@@ -4,8 +4,9 @@ A simple vanilla HTML/CSS/JS web application with color-changing functionality.
 
 ## Features
 
-- **Change Color**: Click to randomly change the color of the display box
-- **Reset**: Reset the box to its original color
+- **Change Color**: Click to randomly change the background color of the display box
+- **Change Text Color**: Click to randomly change the text color with vivid colors
+- **Reset**: Reset both background and text to their original colors
 - Clean, modern UI with smooth animations
 
 ## Setup Instructions
@@ -23,8 +24,9 @@ A simple vanilla HTML/CSS/JS web application with color-changing functionality.
 
 1. Clone your forked repository
 2. Open `index.html` in your web browser
-3. Click the "Change Color" button to change the box color
-4. Click the "Reset" button to return to the default color
+3. Click the "Change Color" button to change the box background color
+4. Click the "Change Text Color" button to change the text color
+5. Click the "Reset" button to return to the default colors
 
 No build process or dependencies required - just open `index.html` in any modern web browser!
 
