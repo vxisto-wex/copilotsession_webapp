@@ -89,4 +89,4 @@ Crie um arquivo mcp.json dentro do diretorio .vscode do seu repositorio com o co
 }
 ```
 
-s criar o arquivo, inicie o MCP Server e explore as diversas ferramentas disponiveis nele em seus prompts e no GitHub Copilot Chat.#
+Após criar o arquivo, inicie o MCP Server e explore as diversas ferramentas disponiveis nele em seus prompts e no GitHub Copilot Chat.
