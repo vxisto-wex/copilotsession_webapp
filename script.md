@@ -1,7 +1,6 @@
 # Instruções para Prompts Reutilizáveis
 
-Este arquivo contém instruções passo a passo, exemplos de prompts reutilizáveis e modelos prontos para automação via Coding Agent. Use estes exemplos para agilizar tarefas como pedido de features, adição de testes e documentação.
-
+Este arquivo contém exemplos que você pode utilizar durante a hora do hands on. Explore as opções e utilize a que preferir (uma, ou todas ^^). Você também pode criar seu proprio prompt reutilizavel se tiver tempo e uma ideia boa. Segue aqui o Awesome Copilot, um repositório cheio de exemplos que você pode utilizar de prompts reutilzaveis. [Awesome Copilot] (https://github.com/github/awesome-copilot)
 ---
 
 ## 1. Adicionar nova funcionalidade: alterar a cor do texto através de um botão
@@ -65,10 +64,28 @@ Utilize Markdown e links internos quando necessário.
 
 ---
 
-## Dicas de Uso
 
-- Use ou adapte cada bloco acima para prompting direto ou automação com Coding Agent.
-- Personalize os campos `description`, `tools`, etc., conforme o contexto.
-- Ajuste as etapas conforme o fluxo necessário.
+## Bonus
 
----
+### Faça ainda mais com o MCP Server
+
+Crie um arquivo mcp.json dentro do diretorio .vscode do seu repositorio com o conteudo abaixo e use o MCP Server da GitHub para delegar tarefas ao GitHub Copilot Coding Agent.
+
+```json
+{
+  "servers": {
+    "github-remote": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "X-MCP-Toolsets": "actions, code_security, dependabot, discussions, issues, orgs, projects, pull_requests, repos, secret_protection, security_advisories, copilot, copilot_spaces"
+      }
+    }
+  }
+}
+
+
+
+
+
+Após criar o arquivo, inicie o MCP Server e explore as diversas ferramentas disponiveis nele em seus prompts e no GitHub Copilot Chat.#
